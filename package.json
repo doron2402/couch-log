@@ -1,0 +1,25 @@
+{
+  "name": "couch-logger",
+  "version": "1.0.0",
+  "description": "## Why? When you have heavy client you want to log everything from specific behavior and etc.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doron2402/couch-log.git"
+  },
+  "author": "Doron Segal (@segaldoron)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doron2402/couch-log/issues"
+  },
+  "homepage": "https://github.com/doron2402/couch-log",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "require-directory": "^2.1.1"
+  }
+}
