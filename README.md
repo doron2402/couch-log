@@ -11,4 +11,9 @@ We using couchbase becuase we care about two things
 
 Meaning we want to log everything and we want the DB to always be on and listen to our logs.
 
+# Routes
 
+1. [GET] /api/version
+2. [GET] /api/log/:id
+3. [POST] /api/log
+4. [GET] /api/logs?limit&offset&start&end

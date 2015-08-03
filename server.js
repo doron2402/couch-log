@@ -5,5 +5,10 @@ var env = process.env.NODE_ENV;
 var app = require('./app');
 var settings = require('./settings');
 var serverSettings = settings.server[env];
-app.listen(serverSettings.port);
-console.log('Listen on port ' + serverSettings.port);
+app.listen(serverSettings.port, function(error){
+	if (error) {
+		console.error('Error', error);
+	}
+	console.log('Listen on port ' + serverSettings.port);
+});
+
