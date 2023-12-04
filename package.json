@@ -22,7 +22,7 @@
     "body-parser": "^1.13.2",
     "express": "^4.13.1",
     "lil-uuid": "^0.1.1",
-    "nano": "^6.1.4",
+    "nano": "^9.0.0",
     "require-directory": "^2.1.1"
   },
   "devDependencies": {
